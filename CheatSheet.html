@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CheatSheet</title>
+	</head>
+	<body>
+		<!-- Sichtbarer Dokumentinhalt im body -->
+		<h1>WORLD WIDE WEB GENERAL</h1>
+		<p>1.What are the most essential technologies that made the World Wide Web such a success?
+		<br/>The Hypertext-System and the Browser-Editor-Hybrid named „WWW“ -> World wide web“</p>
+		
+		<p>2.How are resources (html pages, images, etc) addressed in the web?
+		<br/>They are adressed by the Hypertext Transfer Protocol (HTTP).</p>
+
+		<p>3.What are the general components of a url?
+		<br/>The general components are the „http(s)“ and then a general sheme [//[user[:password]@]host[:port]][/path][?query][#fragment]</p>
+
+		<h1>WEB SERVER</h1>
+
+		<p>1.What is a web server?
+		<br/>A web server is a computer system or the software itsselfe, that tranferes data to clients .</p>
+
+		<p>2.What does a web client?
+		<br/>See Number 1.</p>
+
+		<p>3.How can content be stored on a web server?
+		<br/>The resource is typically a real file on the server's secondary storage, but this is not necessarily the case and depends on how the web server is implemented.</p>
+
+		<p>4.How is content in webpages described?
+		 <br/>Pages delivered are most frequently HTML documents, which may include images, style sheets and scripts in addition to text content.</p>
+
+		<h1>WEB CLIENT</h1>
+		
+		<p>1.What is a web client?
+				<br/>A Web client is structured in three layers, the presentation layer, business logic and the service access layer. </p>
+
+		<p>2.What does a web client?
+			<br/>In the client-server environment of the World Wide Web the Web clients control the processes.</p>
+
+		<p>3.Web Client and Web Browser is the same?
+			<br/>Yes, they are the same. Web Clients are also named browsers, but you have to split in two different types of browsers , the row-oriented and graphically browsers.</p>
+
+
+		<h1>HELLO WORLD</h1>
+
+		<p>1. What is the html head element?
+				<br/>The header of a website contains a visible header section. This section should contains a companylogo, a motto or a link to a imprint.</p>
+
+		<p>2.What does &lt!DOCTYPE&gt in html mean?
+				<br/>The &lt!DOCTYPE&gt declaration must be the very first thing in your HTML document, before the &lthtml&gt tag.
+				<br/>The &lt!DOCTYPE&gt declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.</p>
+
+		<p>3.What are the two top most elements within the html element?
+			<br/>One of the two most importent elements in HTML is the body and the scond most important element is the header.</p>
+
+		<p>4.How to emphasize a text and how is it displayed in the browser?
+			<br/>Their a two commands, one is the b that stands for bold = fett and the second one is strong what means kräftig, fest , stark in german.</p>
+
+		<p>5.How to mark up important ext and how is it displayed in the browser?
+			<br/>The command to mark up a text in HTML is mark. Here is one example : mark{ background-color: yellow;olor: black; }. Now you can see the text in the colour you have chosen.</p>		
+		
+		<h1>HTML</h1>
+		
+		<p>1.Name the components of html elements properly<br/>
+			An HTML element usually consists of a start tag and end tag, with the content inserted in between.<br/>
+			<tagname>Content goes here...</tagname></p>
+			
+		<p>2.Identify void elements and how they are denoted<br/>
+			HTML elements with no content are called void elements. They are denoted like this: <tagname/></p>
+		
+		<p>3.Identify attributes<br/>
+			All HTML elements can have attributes. Attributes provide additional information about an element. They are always specified in the start tag</p>
+			
+		<p>4.Write down the correct DOCTYPE declaration for html 5<br/>
+			Its declarated like this>: <!DOCTYPE html></p>
+		
+		<p>5.Write down syntactically correct statements for the following elements<br/>
+			Article: &ltarticle&gtContent....&lt/article&gt <br/>
+			Body: &ltbody&gtparagraphs,headings,...&lt/body&gt <br/>
+			line break: &ltbr/&gt <br/>
+			Headings: &lth1-h6&gtContent...&l/th1-h6&gt<br/>
+			Section with meta-information: &lthead&gtmeta information&lt/head&gt <br/>
+			Top level element: &lthtml&gtContent...&lt/html&gt <br/>
+			Image named Team.jpg: &ltimg src="Team.jpg"/&gt <br/>
+			Paragraph: &ltp&gtContent...&lt/p&gt <br/>
+			Section: &ltsection&gtContent...&lt/section&gt<br/>
+			Label appearing in the title bar: &lttitle&gtYour title&lt/title&gt <br/>
+			Link to other pages: &lta href="url"&gtlink text&lt/a&gt <br/>
+			Comment: &lt!-- Your comment --&gt <br/>
+			Head with title and meta elements:<br/> 	&lthead&gt<br/>
+													&ltmeta charset="utf-8"&gt <br/>
+													&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt <br/>
+													&lttitle&gtYour title&lt/title&gt <br/>
+												&lt/head&gt
+
+			<p/>
+			
+			<h1>CSS</h1>
+			
+			<p>1.Name the components of a css rule properly<br/>
+				The selector points to the HTML element you want to style.<br/>
+				The declaration block contains one or more declarations separated by semicolons.<br/>
+				Each declaration includes a CSS property name and a value, separated by a colon.<br/>
+				A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.</p>
+				
+			<p>2.Use combinators properly: direct child, descendant, adjacent sibling, sibling<br/>
+			   The descendant selector matches all elements that are descendants of a specified element.<br/>
+			   The child selector selects all elements that are the immediate children of a specified element.<br/>
+			   The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element.<br/>
+			   The sibling selector selects all elements that are siblings of a specified element.
+			</p>
+			
+			<p>3.Specify colors by color names and in hexadecimal notation<br/>
+				red = #ff0000         blue = #0000ff<br/>
+				green = #00ff00       white = #ffffff<br/>
+				black = #000000</p>
+				
+			<p>4.Declarations for color, background color<br/>
+				color: tagname: {color: yourColor}<br/>
+				background color: tagname: {background-color: yourColor}</p>
+				
+			<p>5.Pseudo classes for the &lta&gt element<br/>
+			/* unvisited link */<br/>
+			a:link {<br/>
+				color: #FF0000;<br/>
+			}<br/>
+
+			/* visited link */<br/>
+			a:visited {<br/>
+				color: #00FF00;<br/>
+			}<br/>
+
+			/* mouse over link */<br/>
+			a:hover {<br/>
+				color: #FF00FF;<br/>
+			}<br/>
+
+			/* selected link */<br/>
+			a:active {<br/>
+				color: #0000FF;<br/>
+			}</p>
+			
+			<p>6.Declaration for background image<br/>
+				body {<br/>
+					background-image: url("paper.gif");<br/>
+				}</p>
+				
+			<p>7.Declaration for text alignment (left, right, center, justify)<br/>
+				h1 {<br/>
+					text-align: center,left,right,justify;<br/>
+				}<br/>
+				Justify streches each line so that every line has equal width</p>
+				
+			<p>8.Declaration for text decoration (overline, underline, line-through)<br/>
+				h1 {<br/>
+					text-decoration: overline, underline, line-through;<br/>
+				}
+				</p>
+			
+			<p>9.Declaration for text transformation (uppercase, lowercase, capitalize)<br/>
+				p.uppercase, lowercase, capitalize {<br/>
+					text-transform: uppercase, lowercase,capitalize;<br/>
+				}</p>
+				
+			<p>10.Identify the difference between serif and sans-serif fonts<br/>
+				Serif fonts have small lines at the ends on some characters: z.B. Times New Roman<br/>
+				"Sans" means without - these fonts do not have the lines at the ends of characters: z.B. Arial</p>
+				
+			<p>11.Declarations for font families<br/>
+				p {<br/>
+					font-family: "Times New Roman", Times, serif;<br/>
+				}</p>
+				
+			<p>12.Declarations for font style normal and italic<br/>
+				p.normal, italic {<br/>
+					font-style: normal, italic;<br/>
+				}</p>
+			
+			<p>13.Declarations for font sizes<br/>
+				h1 {<br/>
+					font-size: 40px;<br/>
+				}
+			</p>
+			
+			<p>14.Declarations for font weights<br/>
+				p {<br/>
+					font-weight: normal, bold;<br/>
+				}</p>
+			
+			<h1>HTML for lists</h1>
+			
+			<h4>1.Start tags for:</h4>
+			<ul>
+				<li>ordered list: An unordered list starts with the &ltol&gt tag. Each list item starts with the &ltli&gt tag.</li>
+				<li>unordered list: An unordered list starts with the &ltul&gt tag. Each list item starts with the &ltli&gt tag.</li>
+				<li>description list: The &ltdl&gt tag defines the description list, the &ltdt&gt tag defines the term (name), and the &ltdd&gt tag describes each term</li>
+				<li>list item: &ltli&gt</li>
+				<li>description term: &ltdt&gt</li>
+				<li>description data: &ltdd&gt</li>
+			</ul>
+			
+			<h1>Css for lists</h1>
+			
+			<h4>1.Make bullet a square</h4>
+			<p>ul {<br/>
+				list-style-type: square;<br/>
+			}</p>
+			<h4>2.Make bullet an image named "my-bullet.png"</h4>
+			<p>ul {<br/>
+				list-style-image: url('my-bullet.png');<br/>
+			}</p>
+			<h4>3.Make bullet an uppercase roman number</h4>
+			<p>ol {<br/>
+				list-style-type: upper-roman;<br/>
+			}</p>
+			<h4>4.Set bullet position to be inside the list item's text flow</h4>
+			<p>ul {<br/>
+				list-style-position: inside;<br/>
+			}</p>
+			<h4>5.Set bullet position to be outside the list item's text flow</h4>
+			<p>ul {<br/>
+				list-style-position: outside;<br/>
+			}</p>
+			
+			<h1>Html for Tables</h1>
+			
+			<h4>1.Start tags for:</h4>
+			<ul>
+				<li>table: &lttable&gt</li>
+				<li>table row: &lttr&gt</li>
+				<li>table header: &ltth&gt</li>
+				<li>table header cell: &ltth&gt</li>
+				<li>table body: &lttbody&gt</li>
+				<li>table cell: &lttd&gt</li>
+				<li>table footer: &lttfoot&gt</li>
+				<li>table footer cell: &lttfoot&gt</li>
+			</ul>
+			
+			<h1>CSS for Tables</h1>
+			
+			<h4>1.Black dotted border of 1 px width.</h4>
+			<p>p.dotted {border-style: dotted;}</p>
+			<h4>2.Solid border of 1 px width having a red color and rounded corners</h4>
+			<p>p.one {
+				border-style: solid;
+				border-color: red;
+				border-width: 1px;
+			}</p>
+			<h4>3.Merge the borders of table cells so that they appear as one line</h4>
+			<p>ul.solid {border-style: solid;}</p>
+			
+			<h1>Classes and IDs</h1>
+			<h4>Class Selector</h4>
+			<p>.class { <br/>
+				css declaration;<br/>
+				}
+			<p>
+			<h4>ID Selector</h4>
+			<p>#id {<br/>
+				css declarations;<br/>
+				}</p>
+			<h1>Css Box Model</h1>
+			<ul>
+				<li>Content - The content of the box, where text and images appear</li>
+				<li>Padding - Clears an area around the content. The padding is transparent</li>
+				<li>Border - A border that goes around the padding and content</li>
+				<li>Margin - Clears an area outside the border. The margin is transparent</li>
+			</ul>
+			<h1>Floating</h1>
+			<h4>float</h4>
+			<ul>
+				<li>left - The element floats to the left of its container</li>
+				<li>right- The element floats to the right of its container</li>
+				<li>none - The element does not float (will be displayed just where it occurs in the text). This is default</li>
+				<li>inherit - The element inherits the float value of its parent</li>
+			</ul>
+			<h4>clear</h4>
+			<ul>
+				<li>none - Allows floating elements on both sides. This is default</li>
+				<li>left - No floating elements allowed on the left side</li>
+				<li>right- No floating elements allowed on the right side</li>
+				<li>both - No floating elements allowed on either the left or the right side</li>
+				<li>inherit - The element inherits the clear value of its parent</li>
+			</ul>
+
+	</body>
+</html> 
